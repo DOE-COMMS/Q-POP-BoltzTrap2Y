@@ -1,0 +1,161 @@
+%abbreviations
+\def\pder#1#2{\frac{\partial #1}{\partial #2}}
+
+\def\cfbox#1{\begin{center}\framebox{\begin{minipage}{.8\textwidth}#1\end{minipage}}\end{center}}
+\def\bmp#1{\begin{minipage}{#1\textwidth}}
+\def\bmpt#1{\begin{minipage}[t]{#1\linewidth} \vspace{0pt}}
+\def\emp{\end{minipage}}
+\def\befi{\nopagebreak \begin{figure}}
+\def\eefi{\end{figure}}
+\def\beq{\nopagebreak \begin{equation}}
+\def\eeq{\end{equation}}
+\def\beqs{\nopagebreak \begin{equation*}}
+\def\eeqs{\end{equation*}}
+\def\bga{\begin{gather}}
+\def\ega{\end{gather}}
+\def\bgas{\nopagebreak \begin{gather*}}
+\def\egas{\end{gather*}}
+\def\bea{\nopagebreak \begin{eqnarray}}
+\def\ben{\nopagebreak \begin{enumerate}}
+\def\bit{\nopagebreak \begin{itemize}}
+\def\bce{\begin{center}}
+\def\ece{\end{center}}
+\def\eea{\end{eqnarray}}
+\def\een{\end{enumerate}}
+\def\eit{\end{itemize}}
+
+\def\half{\frac{1}{2}}
+\def\quart{\frac{1}{4}}
+\def\ul{\underline}
+\def\ol{\overline}
+
+\def\bsl{\begin{frame}}
+\def\esl{\end{frame}}
+
+%Symbols:
+\def\doo{$d_{O\textrm{--}O}$}
+
+\def\kinop{-\frac{\nabla^2}{2}}
+\def\lap{\nabla^2\!\rho({\bf r})}
+\def\gor{G({\bf r})/\rho({\bf r})}
+\def\gorcp{G({\bf r}_c)/\rho({\bf r}_c)}
+\def\den{n}
+\def\denup{n_\uparrow}
+\def\dendn{n_\downarrow}
+\def\denr{n({\bf r})}
+\def\densr{n_\sigma({\bf r})}
+\def\densar{n_{\sigma_1}({\bf r})}
+\def\densbr{n_{\sigma_2}({\bf r})}
+\def\gdenr{\ol{n}({\bf r})}
+\def\magr{{\bf m}({\bf r})}
+\def\pauli{\ol{\boldsymbol{\sigma}}}
+\def\denra{{n({\bf r}_1)}}
+\def\denrb{{n({\bf r}_2)}}
+\def\dencp{\rho({\bf r}_c)}
+\def\lapcp{\nabla^2\!\rho({\bf r}_c)}
+
+\def\ham{\hat{\mathcal{H}}}
+\def\pw{\psi_{\bf k}}
+\def\psinr{\psi_{n}({\bf r})}
+\def\psinsr{\psi_{n}^*({\bf r})}
+
+\def\n{|n_x\rangle}
+\def\nup{|n_x+1\rangle}
+\def\ndn{|n_x-1\rangle}
+\def\occp{f_n}
+\def\bq{{\bf q}}
+\def\bk{{\bf k}}
+\def\bK{{\bf K}}
+\def\br{{\bf r}}
+\def\bu{{\bf u}}
+\def\bp{{\bf p}}
+\def\bv{{\bf v}}
+\def\be{{\bf e}}
+\def\bi{{\bf i}}
+\def\bj{{\bf j}}
+\def\bk{{\bf k}}
+\def\hbr{{\hat{\bf r}}}
+\def\bra{{\bf r}_1}
+\def\brb{{\bf r}_2}
+\def\bx{{\bf x}}
+\def\bR{{\bf R}}
+\def\bG{{\bf G}}
+\def\bkap{\boldsymbol{\kappa}}
+\def\basis{\phi^\sigma_\bK}
+\def\basisp{\phi^{\sigma'}_{\bK'}}
+\def\match{{d^{A\sigma{\sigma^\alpha}}_{L}}}
+\def\matchp{{d^{A'\sigma'{\sigma^\alpha}'}_{L'}}}
+\def\apwwf{{D^{A{\sigma^\alpha}}_{i L}}}
+\def\apwwfp{{D^{A'{\sigma^\alpha}'}_{iL'}}}
+\def\spinloc{{\chi _{\sigma ^{\alpha }}}}
+\def\spinorup{\left(\begin{array}{c} 1 \\ 0 \end{array} \right)}
+\def\spinordn{\left(\begin{array}{c} 0 \\ 1 \end{array} \right)}
+\def\dketup{|\!\!\uparrow\rangle}
+\def\dketdn{|\!\!\downarrow\rangle}
+\def\Y{Y_{L}(\hat{\bf r})}
+\def\Yk{Y_{L}(\hat{\bf k}_n)}
+\def\Yg{Y_{L}(\hat{\bf G})}
+\def\Yp{Y_{L'}(\hat{\bf r})}
+\def\Ykp{Y_{L'}(\hat{\bf k}_n)}
+\def\gaunt{G_{L,L',L''}}
+\def\fcma{{A_1\alpha_1}}
+\def\fcmb{{A_2\alpha_2}}
+\def\fcmc{{A_3\alpha_3}}
+\def\fcmab{{\substack{\alpha_1\alpha_2 \\ A_1A_2}}}
+\def\fcmbc{{\substack{\alpha_2\alpha_3 \\ A_2A_3}}}
+\def\fcmabc{{\substack{\alpha_1\alpha_2\alpha_3 \\ A_1A_2A_3}}}
+\def\fcmja{{j_1\bq_1}}
+\def\fcmjb{{j_2\bq_2}}
+\def\fcmjc{{j_3\bq_3}}
+%\def\fcmab{{\substack{\alpha_1\alpha_2 \\ A_1A_2}}}
+%\def\fcmbc{{\substack{\alpha_2\alpha_3 \\ A_2A_3}}}
+\def\fcmjjj{{\substack{\bq_1 \bq_2 \bq_3\\j_1j_2j_3}}}
+%\def\fcm{\Phi_{\substack{\alpha_1\alpha_2 \\ A_1A_2}}({\bf R})}
+%\def\fc3m{\Phi_{\substack{\alpha_1\alpha_2\alpha_3 \\ A_1A_2A_3}}({\bf R_2},{\bf R_3})}
+%\def\fcmq{\Phi_{\substack{\alpha_1\alpha_2 \\ A_1A_2}}({\bf q})}
+\def\fcmsum{\sum_{\substack{\alpha_1\alpha_2 \\ A_1A_2}}({\bf q})}
+\def\id{{\textrm d}}
+
+\def\fv{{\bf v}(i,\bk)}
+\def\df{\Bigl[-\frac{\partial f_{T\mu}(\varepsilon)}{\partial \varepsilon} \Bigr]}
+
+
+\def\tdenr{\tilde{n}({\bf r})}
+\def\braphi{\langle \phi_\mu|}
+\def\ketphi{|\phi_\mu\rangle}
+\def\opbraket#1#2#3{\langle #1|#2|#3\rangle}
+\def\dbraket#1#2{\langle #1|#2\rangle}
+\def\dbra#1{\langle #1|}
+\def\dket#1{|#1\rangle}
+\def\brapsi{\langle \psi_n|}
+\def\ketpsi{|\psi_n\rangle}
+\def\bratpsi{\langle \tilde{\psi}_n|}
+\def\kettpsi{|\tilde{\psi}_n\rangle}
+\def\stop{\rho^{\nu s_2}_{\mu s_1}}
+\def\pawdm{D_{i_1i_2}}
+\def\pawdma{D^A_{i_1i_2}}
+\def\pawdmb{D^A_{i_3i_4}}
+\def\paws{\sum_{i_1i_2}}
+\def\pawss{\sum_{\substack{i_1i_2\\i_3i_4}}}
+\def\tbss{\sum_{\substack{\mu_1\nu_1\\\mu_2\nu_2}}}
+\def\tbdma{n_{\mu_1}^{\nu_1}}
+\def\tbdmb{n_{\mu_2}^{\nu_2}}
+\def\tbma{m_{\mu_1}^{\nu_1}}
+\def\tbmb{m_{\mu_2}^{\nu_2}}
+\def\tbs{\sum_{\mu_1\nu_1}}
+\def\tbss{\sum_{\substack{\mu_1\nu_1\\\mu_2\nu_2}}}
+\newcommand{\TODO}[1]{ {\color{red}{\bf (TODO: #1)}} }
+
+
+%\definecolor{darkgreen}{rgb}{0 0.6 0}
+
+\newcommand{\xskip}{\vspace{.1cm}}
+\newcommand{\xxskip}{\vspace{.2cm}}
+\newcommand{\xxxskip}{\vspace{.5cm}}
+\newcommand{\bskip}{\vspace{-.1cm}}
+\newcommand{\bbskip}{\vspace{-.2cm}}
+\newcommand{\bbbskip}{\vspace{-.5cm}}
+
+%\definecolor{darkgreen}{rgb}{0 0.6 0}
+%\def\tcg#1{\textcolor{darkgreen}{#1}}
+
