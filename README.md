@@ -7,8 +7,12 @@
 
 # Q-POP-BoltzTraP2Y
 
+## Overview
 Q-POP-BoltzTraP2Y is a high-throughput first-principles calculation software based on BoltzTraP2, that provides thermodynamic and kinetic input data for phase-field simulations.
 
 Please check the [BoltzTrap2 repository](https://gitlab.com/sousaw/BoltzTraP2) for instructions on how to install BoltzTraP2.
 
 Q-POP-BoltzTraP2Y documentation can be found on the package's [webpage](https://boltztrap2y.readthedocs.io/en/latest/).
+
+## Acknowledgments
+This development of the software was supported as part of the Computational Materials Sciences Program funded by the U.S. Department of Energy, Office of Science, Basic Energy Sciences, under Award No. DE-SC0020145.
