@@ -1,4 +1,3 @@
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/DOE-COMMS/Q-POP-BoltzTrap2Y/total)
 ![GitHub release version](https://img.shields.io/github/v/release/DOE-COMMS/Q-POP-BoltzTrap2Y?color=%2350C878&include_prereleases)
 ![License](https://img.shields.io/github/license/DOE-COMMS/Q-POP-BoltzTrap2Y)
 ![GitHub Size](https://img.shields.io/github/repo-size/DOE-COMMS/Q-POP-BoltzTrap2Y)
